@@ -3,8 +3,8 @@ version: 2
 sources:
   - name: raw
     description: Raw data from source systems
-    database: BAIN_ANALYTICS
-    schema: RAW
+    database: DBT_DEMO
+    schema: DEV
     tables:
       # Pipeline A Sources
       - name: cashflows
